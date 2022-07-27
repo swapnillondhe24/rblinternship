@@ -16,11 +16,12 @@ class scrapeBot():
         self.df = pd.DataFrame.from_dict(self.dict_values, orient='index').transpose()
         
         return self.df
+    
+    def returnData(self):
+        return self.data2, self.data[0]['companyname']
 
     def __init__(self,title):
         with urllib.request.urlopen("https://api.builtwith.com/daltv1/api.json?KEY=59dd064f-4d0c-4ab6-8f5a-a8c699cbf391&LOOKUP="+title) as url:
             self.data2 = json.loads(url.read().decode())
 
-icici = scrapeBot("icicibank.com")
-icici.sendReturn()
         
