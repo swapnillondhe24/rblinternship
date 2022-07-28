@@ -1,17 +1,8 @@
 
 ## Table of Contents
 
-* [Demo](#demo)
 * [Quick Start](#quick-start)
-* [Documentation](#documentation)
 * [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
 <br />
 
 <br />
